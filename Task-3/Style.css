@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(188, 188, 188);
+}
+.Home{
+    color: rgb(255, 0, 0);
+    background-color: black;
+    border-radius: 50px;
+    border: 2px dashed rgb(188, 188, 188);
+    font-size: 15px;
+    padding: 4px 28px 4px 28px;
+    float: left;
+    margin: 2px 2px;
+    text-decoration:none;
+}
+.Home:hover{
+    color: black;
+    background-color: white;
+    border: 2px dashed #000000; 
+    box-shadow: 2px 5px 9px rgb(0, 0, 0);
+    transition: 0.75s ; 
+}
+.a {
+    width: 300px;
+    background-color:#ffffff;
+    border: 6px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 20px;
+    text-align: center; 
+    box-shadow: 2px 5px 9px rgb(0, 0, 0); 
+}
+.a img {
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+h2{
+    font-weight: bold;
+    margin: 30px;
+}
+.b{
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    overflow-y: scroll ;
+    min-width: 200px;
+    max-width: 500px;
+    text-align: left;
+    max-height: 120px;
+    min-height: 120px;  
+}
+.c{
+    font-weight: bold;
+    text-align: left;
+}
